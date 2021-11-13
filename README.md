@@ -5,7 +5,7 @@ Some stuff about SFP GPON ONU modules (GPON sticks).
 
 > Including: V-SOL V2801F, C-Data FD511GX-RM0, OPTON GP801R, BAUDCOM BD-1234-SFM, CPGOS03-0490 v2.0, EXOT - EGS1, NanTianWeiShi, Ubiquiti U-Fiber Instant, ODI newer model, etc.
 
-If your ISP uses hexadecimal GPON PLOAM password (idONT), although the normal WebUI and `flash / xmlconfig / mib` command doesn't allow you to set a hexadecimal password contains unprintable characters (for example the passwords for Movistar Spain: `0xF20XXXXXX...`, the first byte `0xF2` is unprintable in ASCII encoding thus can't be saved in the /var/config/lastgood.xml config file), but there is still a way to use it since `/bin/omci_app` still accepts and will work well with hexadecimal password as an argument value in command line.
+If your ISP uses hexadecimal GPON PLOAM password (idONT), although the normal WebUI and `flash / xmlconfig / mib` command doesn't allow you to set a hexadecimal password contains unprintable characters (for example a password for Movistar Spain: `0xF2021030405678000000`), but there is still a way to use it since `/bin/omci_app` still accepts and will work well with hexadecimal password as an argument value in command line.
 
 1. Flash a custom firmware (you can find information about customizing firmware [here](https://gist.github.com/Anime4000/522b021d0c43e8d6134e95c42603ed2f#modify-firmware)) with an already modified script in step 2, or flash a firmware including a text editor like `vi`, some modules' firmwares may already have one. If you couldn't find a way to flash, maybe `sed` can also do the trick by replacing string.
 
