@@ -1,0 +1,41 @@
+# cat etc/version 
+C00R657V00B12 --  Thu Nov 21 14:52:46 CST 2019
+
+# diag 
+RTK.0> gpon show onu-info 
+Vendor ID   : GPON
+Model ID    : G657
+Gpon MAC    : 00e04c86700a
+Hardware    : V1.0
+Software    : C00R657V00B12
+
+root@ubuntu:/opt/TWCGPON657_01C_N# svn info
+Path: .
+Working Copy Root Path: /opt/TWCGPON657_01C_N
+URL: svn://192.168.0.152/realtek/TWCGPON657_01C_N
+Relative URL: ^/realtek/TWCGPON657_01C_N
+Repository Root: svn://192.168.0.152
+Repository UUID: d7edeafd-cd6c-42f1-832a-f5472a5ae864
+Revision: 12431
+Node Kind: directory
+Schedule: normal
+Last Changed Author: lxuesong
+Last Changed Rev: 12430
+Last Changed Date: 2019-08-06 15:16:23 +0800 (Tue, 06 Aug 2019)
+
+默认IP地址：192.168.1.1
+web超级用户名及密码：admin system
+
+
+网页及远程升级文件： C00R657V00B12_20191121.tar
+
+
+
+修改说明：
+1.修改版本号：C00R657V00B11----> C00R657V00B12 
+
+     
+
+
+
+

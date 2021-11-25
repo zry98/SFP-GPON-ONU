@@ -1,0 +1,26 @@
+root@ubuntu12:/home/server/share/test/TWCGPON657_01C_N# svn info
+Path: .
+Working Copy Root Path: /home/server/share/test/TWCGPON657_01C_N
+URL: svn://192.168.0.152/realtek/TWCGPON657_01C_N
+Relative URL: ^/realtek/TWCGPON657_01C_N
+Repository Root: svn://192.168.0.152
+Repository UUID: d7edeafd-cd6c-42f1-832a-f5472a5ae864
+Revision: 13961
+Node Kind: directory
+Schedule: normal
+Last Changed Author: hhjiang
+Last Changed Rev: 13961
+Last Changed Date: 2020-12-21 19:38:03 +0800 (Mon, 21 Dec 2020)
+
+IP addr  : 192.168.1.1
+user_name: user
+user_pass: user
+super_user_name: admin
+super_user_pass: system
+
+# cat /etc/version 
+C00R657V00B15 --  Tue Dec 22 07:03:19 UTC 2020
+
+
+修改说明：
+修改EPON注册时EPON_LLID_TBL上报错误

@@ -1,0 +1,26 @@
+root@1b9e05d558ad:/home/hehaijiang/657_01C_N/TWCGPON657_01C_N# svn info
+Path: .
+Working Copy Root Path: /home/hehaijiang/657_01C_N/TWCGPON657_01C_N
+URL: svn://192.168.0.152/realtek/TWCGPON657_01C_N
+Relative URL: ^/realtek/TWCGPON657_01C_N
+Repository Root: svn://192.168.0.152
+Repository UUID: d7edeafd-cd6c-42f1-832a-f5472a5ae864
+Revision: 14218
+Node Kind: directory
+Schedule: normal
+Last Changed Author: hhjiang
+Last Changed Rev: 14218
+Last Changed Date: 2021-03-03 03:48:03 +0000 (Wed, 03 Mar 2021)
+
+IP addr  : 192.168.1.1
+user_name: user
+user_pass: user
+super_user_name: admin
+super_user_pass: system
+
+# cat /etc/version 
+C00R657V00B16 --  Wed Mar 3 02:59:49 UTC 2021
+
+
+修改说明：
+1、取消插拔光纤是ONU自动重置。

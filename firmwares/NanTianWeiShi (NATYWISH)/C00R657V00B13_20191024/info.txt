@@ -1,0 +1,38 @@
+# cat etc/version 
+C00R657V00B13 --  Thu Oct 24 20:25:24 CST 2019
+
+# diag 
+RTK.0> gpon show onu-info 
+Vendor ID   : GPON
+Model ID    : G657
+Gpon MAC    : 00e04c86700a
+Hardware    : V1.0
+Software    : C00R657V00B13
+
+root@ubuntu:/opt/TWCGPON657_01C_N# svn info
+Path: .
+Working Copy Root Path: /opt/TWCGPON657_01C_N
+URL: svn://192.168.0.152/realtek/TWCGPON657_01C_N
+Relative URL: ^/realtek/TWCGPON657_01C_N
+Repository Root: svn://192.168.0.152
+Repository UUID: d7edeafd-cd6c-42f1-832a-f5472a5ae864
+Revision: 12431
+Node Kind: directory
+Schedule: normal
+Last Changed Author: lxuesong
+Last Changed Rev: 12430
+Last Changed Date: 2019-08-06 15:16:23 +0800 (Tue, 06 Aug 2019)
+
+Default IP address: 192.168.1.1
+Superuser username: admin
+Superuser password: system
+(for WebUI and telnet)
+
+
+Firmware file: C00R657V00B13_20191024.tar
+
+
+
+Changelog:
+1. Bump version: C00R657V00B12 -> C00R657V00B13.
+2. Add auto restoring factory settings by plugging and unplugging the fiber for five times.
